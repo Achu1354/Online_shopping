@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: url('https://tse1.mm.bing.net/th?id=OIP.WIAAkY23lyvUObH6mnJtOQHaCs&pid=Api&P=0&h=180');
+background-repeat: no-repeat;
+background-size: cover;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    position: relative;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown li {
+    display: block;
+    margin: 0;
+}
+
+.dropdown a {
+    padding: 10px;
+    color: white;
+}
+
+.dropdown a:hover {
+    background: #575757;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 5px;
+}
+
+.product {
+    display: inline-block;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #4CAF50;
+    color: white;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <h1>My Online Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a>
+                    <ul class="dropdown">
+                        <li><a href="#electronics">Electronics</a></li>
+                        <li><a href="#clothing">Clothing</a></li>
+                        <li><a href="#home-appliances">Home Appliances</a></li>
+                    </ul>
+                </li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+            <section id="products">
+            <h2>Featured Products</h2>
+            <div class="product">
+                <img src="https://sp.yimg.com/ib/th?id=OPAC.h6uSMK0rzetAPw474C474&o=5&pid=21.1&w=160&h=105" alt="Product 1">
+                <h3>Top</h3>
+                <p>Price: Rs.100.00</p>
+            </div>
+            <div class="product">
+                <img src="https://sp.yimg.com/ib/th?id=OPAC.hmhBHR9LmKcBFQ474C474&o=5&pid=21.1&w=160&h=105" alt="Product 2">
+                <h3>kurti</h3>
+                <p>Price: Rs.300.00</p>
+            </div>
+            <div class="product">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.iVLcITRmy9pWt10neUcA_wHaFB&pid=Api&P=0&h=180" alt="Product 3">
+                <h3>Red Kurti</h3>
+                <p>Price: Rs.400.00</p>
+            </div>
+<div class="product">
+                <img src="https://sp.yimg.com/ib/th?id=OPAC.5BSwUQOvJcB3yg474C474&o=5&pid=21.1&w=160&h=105" alt="Product 3">
+                <h3>Blue Crop Top</h3>
+                <p>Price: Rs.800.00</p>
+            </div>
+<div class="product">
+                <img src="https://sp.yimg.com/ib/th?id=OPAC.Q2I7ANQdqAfY1Q474C474&o=5&pid=21.1&w=160&h=105" alt="Product 3">
+                <h3>short top</h3>
+                <p>Price: Rs.600.00</p>
+            </div>
+<div class="product">
+                <img src="https://sp.yimg.com/ib/th?id=OPAC.wbEs4bM38Txdsg474C474&o=5&pid=21.1&w=160&h=105" alt="Product 3">
+                <h3>Green kurti</h3>
+                <p>Price: Rs.150.00</p>
+            </div>
+<div class="product">
+                <img src="https://sp.yimg.com/ib/th?id=OPAC.rNs7zuqNs2EbWg474C474&o=5&pid=21.1&w=160&h=105" alt="Product 3">
+                <h3>Chudithar</h3>
+                <p>Price: Rs.870.00</p>
+            </div>
+
+        </section>
+</body>
+</html>
